@@ -1,3 +1,15 @@
+---
+title: VC Analyst
+emoji: 📊
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: "4.44.0"
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # 🔍 VC Analyst
 
 A **7-agent AI pipeline** that converts a startup URL or pitch description into a structured investment memo in ~45 seconds. Built to replace the manual first-pass triage that consumes most of a seed analyst's day — making the process reproducible, auditable, and scalable.
