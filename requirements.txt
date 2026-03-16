@@ -5,6 +5,7 @@ beautifulsoup4>=4.12.0
 gradio>=4.0.0
 pydantic>=2.0.0
 python-dotenv>=1.0.0
+pyaudioop
 
 # Optional: Browser Research Agent (USE_BROWSER_RESEARCH=1)
 # After installing, run: playwright install chromium
@@ -22,3 +23,4 @@ opentelemetry-exporter-otlp-proto-http>=1.20.0
 # Optional: Logfire tracing (cloud, works in Colab) — get token at logfire.pydantic.dev
 # Free tier: 10M spans/month. Traces every Grok + Claude call with prompts + token counts.
 logfire[openai,anthropic]>=3.0.0
+
